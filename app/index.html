@@ -1,0 +1,137 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>hls stream</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser.
+      Please <a href="http://browsehappy.com/">upgrade your browser</a>
+      to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="text-muted">hls stream</h3>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <br>
+          <video autoplay id="hls-video"></video>
+          <br>
+        </div>
+        <div class="col-lg-12"></div>
+        <div class="col-lg-6">
+          <ul>
+            <li class="channel" data-channel="fox">Local Fox</li>
+            <li class="channel" data-channel="weather">Weather</li>
+            <li class="channel" data-channel="Lifetime">Lifetime</li>
+            <li class="channel" data-channel="abc">abc</li>
+            <li class="channel" data-channel="FX">FX</li>
+            <li class="channel" data-channel="CNN">CNN</li>
+            <li class="channel" data-channel="wwor">wwor</li>
+            <li class="channel" data-channel="hgtv">hgtv</li>
+            <li class="channel" data-channel="abcfamily">abc family</li>
+            <li class="channel" data-channel="WPIX">wpix</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <ul>
+            <li class="channel" data-channel="ESPN2">ESPN2</li>
+            <li class="channel" data-channel="pbs">pbs</li>
+            <li class="channel" data-channel="ESPN">ESPN</li>
+            <li class="channel" data-channel="Nick">Nick</li>
+            <li class="channel" data-channel="Cartoon">Cartoon</li>
+            <li class="channel" data-channel="USA">USA</li>
+            <li class="channel" data-channel="TNT">TNT</li>
+            <li class="channel" data-channel="TBS">TBS</li>
+            <li class="channel" data-channel="Discovery">Discover</li>
+            <li class="channel" data-channel="Spike">Spike</li>
+            <li class="channel" data-channel="ComedyCent">Comedy Central</li>
+            <li class="channel" data-channel="AnimalPl">Animal Planet</li>
+
+            <!-- <li class="channel" data-channel="nbc">nbc</li>
+            <li class="channel" data-channel="cbs">cbs</li>
+            <li class="channel" data-channel="BRAVO">BRAVO</li>
+            <li class="channel" data-channel="CSPAN">CSPAN</li>
+            <li class="channel" data-channel="HLN">HLN</li>
+            <li class="channel" data-channel="FoxNews">Fox News</li>
+            <li class="channel" data-channel="CNBC">CNBC</li>
+            <li class="channel" data-channel="Disney">Disney</li>
+            <li class="channel" data-channel="MSNBC">MSNBC</li>
+            <li class="channel" data-channel="OWN">OWN</li>
+            <li class="channel" data-channel="BET">BET</li>
+            <li class="channel" data-channel="Telemundo">Telemundo</li>
+            <li class="channel" data-channel="AMC">AMC</li>
+            <li class="channel" data-channel="NJN">njn</li>
+            <li class="channel" data-channel="TLC">TLC</li>
+            <li class="channel" data-channel="VH1">VH1</li>
+            <li class="channel" data-channel="MTV">MTV</li>
+            <li class="channel" data-channel="Univision">Univision</li>
+            <li class="channel" data-channel="CMT">CMT</li>
+            <li class="channel" data-channel="AE">AE</li>
+            <li class="channel" data-channel="E">E</li>
+            <li class="channel" data-channel="SYFY">SYFY</li>
+            <li class="channel" data-channel="History">History</li> -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer">
+      </div>
+    </div>
+
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/hlsMain.js"></script>
+    <script src="scripts/streams.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
